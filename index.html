@@ -213,33 +213,8 @@
     z-index:2;
     display:block;
   }
-  
-  /* نشانگر کوچک روی کارت‌ها */
-  .menu-card .badge{
-    position:absolute;
-    top:12px;
-    left:12px;
-    font-size:9px;
-    color:var(--smoke-dim);
-    background:rgba(255,255,255,0.04);
-    padding:2px 10px;
-    border-radius:100px;
-    border:1px solid var(--line);
-    z-index:2;
-  }
 
-  /* ===== کارت بزرگ (بعلبکی) ===== */
-  .menu-card.card-big{
-    grid-column: span 2;
-    padding:30px 16px 26px;
-    background:linear-gradient(145deg, rgba(217,79,4,0.08), rgba(18,14,10,0.95));
-    border-color:rgba(217,79,4,0.25);
-  }
-  .menu-card.card-big:hover{
-    border-color:var(--flame);
-    box-shadow:0 12px 40px rgba(0,0,0,0.5), 0 0 40px rgba(217,79,4,0.06);
-  }
-  .menu-card.card-big .icon{font-size:48px;}
+  /* ===== کارت بزرگ (بعلبکی) حذف شد ===== */
 
   /* ===== فوتر ===== */
   .footer{
@@ -270,7 +245,6 @@
     .menu-card{padding:22px 12px 18px;}
     .menu-card .icon{font-size:34px;}
     .menu-card .name{font-size:17px;}
-    .menu-card.card-big .icon{font-size:40px;}
     .hero{margin-bottom:32px;}
     .brand{font-size:clamp(36px, 12vw, 52px);}
   }
@@ -293,25 +267,25 @@
 <div class="menu-grid">
 
   <a href="pizza.html" class="menu-card">
-    <span class="badge">🔥 محبوب</span>
+    <!-- نشانگر حذف شد -->
     <span class="icon">🍕</span>
     <span class="name">پیتزا</span>
   </a>
 
   <a href="sandwich.html" class="menu-card">
-    <span class="badge">🥪</span>
+    <!-- نشانگر حذف شد -->
     <span class="icon">🥪</span>
     <span class="name">ساندویچ</span>
   </a>
 
   <a href="prefood.html" class="menu-card">
-    <span class="badge">🍟</span>
+    <!-- نشانگر حذف شد -->
     <span class="icon">🍟</span>
     <span class="name">پیش غذا</span>
   </a>
 
-  <a href="baloon.html" class="menu-card card-big">
-    <span class="badge">⭐ ویژه</span>
+  <a href="baloon.html" class="menu-card">
+    <!-- نشانگر حذف شد و کلاس card-big برداشته شد -->
     <span class="icon">🍽️</span>
     <span class="name">بعلبکی</span>
   </a>
@@ -325,4 +299,3 @@
 
 </body>
 </html>
-
